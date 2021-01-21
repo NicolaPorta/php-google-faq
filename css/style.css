@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    color: #5F6368;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 0 20px;
+    border-bottom: 1px solid rgba(95, 99, 104, 0.4);
+}
+
+header .top {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .left img{
+    width: 75px;
+    height: 35px;
+    vertical-align: middle;
+}
+
+header .left span {
+    font-size: 21px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    line-height: 32px;
+    width: 80px;
+}
+
+.right i {
+    width: 3px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.right .button {
+    color: white;
+    border-radius: 50%;
+    background-color: #7E57C2;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin-right: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 7px;
+}
+
+nav ul li:last-child {
+    color: #3367D6;
+    border-bottom: 3px solid #3367D6;
+}
+
+main {
+    margin-top: 95px;
+    padding: 0 270px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(70, 70, 70);
+}
+
+main h3 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+main div:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+a {
+    color: #3367D6;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 270px;
+    color: #5F6368;
+    background-color: #F5F5F5;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer li {
+    margin-right: 10px;
+    font-size: 11px;
+    line-height: 11px;
+}
+
+footer li span {
+    font-size: 11px;
+}
+
+footer select {
+    width: 170px;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
