@@ -30,6 +30,7 @@ header .left img{
     width: 75px;
     height: 35px;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 header .left span {
@@ -40,13 +41,34 @@ header .left span {
     display: flex;
     justify-content: space-between;
     line-height: 32px;
-    width: 80px;
+    width: 100px;
 }
 
-.right i {
-    width: 3px;
-    font-size: 18px;
+.right > div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+}
+.right > div:hover {
+    background-color: #DAD2E7;
+}
+
+
+.right .menu {
+    text-align: center;
+    width: 28px;
+}
+
+.right img {
+    width: 20px;
+    height: 20px;
+    text-align: center;
 }
 
 .right .button {
@@ -57,7 +79,6 @@ header .left span {
     height: 32px;
     line-height: 32px;
     text-align: center;
-    cursor: pointer;
 }
 
 nav ul {
@@ -71,6 +92,7 @@ nav ul li {
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 7px;
+    cursor: pointer;
 }
 
 nav ul li:last-child {
@@ -125,6 +147,7 @@ footer li {
     margin-right: 10px;
     font-size: 11px;
     line-height: 11px;
+    cursor: pointer;
 }
 
 footer li span {

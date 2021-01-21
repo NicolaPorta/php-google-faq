@@ -58,12 +58,12 @@
                 <span>Privacy e termini</span>
             </div>
             <div class="right">
-                <div class="menu">
-                    <i class="fas fa-ellipsis-v"></i>
-                    <i class="fas fa-ellipsis-v"></i>
-                    <i class="fas fa-ellipsis-v"></i>
+                <div>
+                    <img src="https://cdn0.iconfinder.com/data/icons/basic-ui-elements-plain/420/06_menu_grid-512.png" alt="">
                 </div>
-                <div class="button">n</div>
+                <div>
+                    <div class="button">n</div>
+                </div>
             </div>
         </div>
         <nav>
